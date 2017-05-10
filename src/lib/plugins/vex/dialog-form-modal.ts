@@ -9,7 +9,7 @@ import {
 import {
   DialogRef,
   ModalComponent
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 import { DialogPreset } from './presets/dialog-preset';
 import { DropInPreset } from './presets/dropin-preset';

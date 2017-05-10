@@ -4,7 +4,7 @@ import {
   setAssignAlias,
   extend,
   arrayUnion
-} from 'angular2-modal';
+} from 'single-angular-modal';
 import {
   BSMessageModal,
   BSMessageModalButtonConfig,

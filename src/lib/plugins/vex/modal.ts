@@ -14,7 +14,7 @@ import {
   CSSBackdrop,
   CSSDialogContainer,
   PromiseCompleter
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 import { DropInPresetBuilder } from './presets/dropin-preset';
 

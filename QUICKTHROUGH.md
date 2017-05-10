@@ -1,15 +1,15 @@
 # A Quick walkthrough
 
-#### Install **angular2-modal**:
+#### Install **single-angular-modal**:
 ```
-    npm install angular2-modal --save
+    npm install single-angular-modal --save
 ```
 
 #### Configure root element
 ```ts
 import { Component, ViewContainerRef } from '@angular/core';
-import { Overlay } from 'angular2-modal';
-import { Modal } from 'angular2-modal/plugins/bootstrap';
+import { Overlay } from 'single-angular-modal';
+import { Modal } from 'single-angular-modal/plugins/bootstrap';
 
 @Component({
   selector: 'my-app',
@@ -46,8 +46,8 @@ export class AppComponent {
 import { NgModule }       from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 
-import { ModalModule } from 'angular2-modal';
-import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
+import { ModalModule } from 'single-angular-modal';
+import { BootstrapModalModule } from 'single-angular-modal/plugins/bootstrap';
 
 import { AppComponent }   from './app.component';
 

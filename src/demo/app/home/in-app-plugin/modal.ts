@@ -9,7 +9,7 @@ import {
   DialogRef,
   ContainerContent,
   Modal as Modal_
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 import { InAppModalBackdrop } from './modal-backdrop';
 import { InAppModalContextBuilder } from './modal-context';

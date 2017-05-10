@@ -1,5 +1,5 @@
 {
-  "main": "bundles/angular2-modal.umd.js",
+  "main": "bundles/single-angular-modal.umd.js",
   "module": "esm/index.js",
   "typings": "esm/index.d.ts",
   "scripts": {},

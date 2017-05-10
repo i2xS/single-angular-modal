@@ -44,5 +44,5 @@ export { ModalOpenContext, ModalOpenContextBuilder } from './models/modal-open-c
 
 export * from './components/index';
 
-export { ModalModule } from './angular2-modal.module';
+export { ModalModule } from './single-angular-modal.module';
 

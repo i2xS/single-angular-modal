@@ -1,7 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
-import { ModalModule } from 'angular2-modal';
+import { ModalModule } from 'single-angular-modal';
 
 import { SharedModule } from './shared.module';
 import { BootstrapDemoModule } from './bootstrap-demo/bootstrap-demo.module';

@@ -13,7 +13,7 @@ function getDirectories(srcpath) {
 }
 
 function prepareCommands(pluginName) {
-  const filename = `angular2-modal${pluginName ? '.' + pluginName : ''}.umd.js`;
+  const filename = `single-angular-modal${pluginName ? '.' + pluginName : ''}.umd.js`;
   const rollupRoot = pluginName ? path.join(config.PATHS.pluginDir, pluginName) : '';
 
   return {

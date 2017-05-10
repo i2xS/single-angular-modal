@@ -9,7 +9,7 @@ import {
   DialogRef,
   OverlayRenderer,
   ModalOverlay
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 @Injectable()
 export class JSNativeModalRenderer implements OverlayRenderer {

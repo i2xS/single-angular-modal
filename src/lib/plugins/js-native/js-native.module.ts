@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { Modal as BaseModal } from 'angular2-modal';
+import { Modal as BaseModal } from 'single-angular-modal';
 
 import { Modal } from './modal';
 

@@ -1,7 +1,7 @@
 import { Component, Compiler, NgModuleRef } from '@angular/core';
 
-import { DialogRef, overlayConfigFactory } from "angular2-modal";
-import { Modal, BSModalContext } from 'angular2-modal/plugins/bootstrap';
+import { DialogRef, overlayConfigFactory } from "single-angular-modal";
+import { Modal, BSModalContext } from 'single-angular-modal/plugins/bootstrap';
 
 import { InnerRuntimeCompiledModule, InnerRuntimeCompiledComponent } from './inner-runtime-compiled';
 let runtimeModuleRefPromise: Promise<NgModuleRef<any>>;

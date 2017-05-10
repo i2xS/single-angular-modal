@@ -1,7 +1,7 @@
 {
-  "name": "angular2-modal-js-native-plugin",
+  "name": "single-angular-modal-js-native-plugin",
   "version": "2.0.3",
-  "main": "../../bundles/angular2-modal.js-native.umd.js",
+  "main": "../../bundles/single-angular-modal.js-native.umd.js",
   "module": "index.js",
   "typings": "index.d.ts"
 }

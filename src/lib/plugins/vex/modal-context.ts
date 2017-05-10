@@ -5,7 +5,7 @@ import {
   privateKey,
   extend,
   arrayUnion
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 
 const DEFAULT_VALUES = {

@@ -17,7 +17,7 @@
     "outDir": "dist_package/esm",
     "baseUrl": ".",
     "paths": {
-      "angular2-modal": ["src/lib"]
+      "single-angular-modal": ["src/lib"]
     },
     "lib": [
       "dom",

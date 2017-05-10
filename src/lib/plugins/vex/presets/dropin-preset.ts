@@ -3,7 +3,7 @@ import {
   DROP_IN_TYPE,
   FluentAssignMethod,
   extend
-} from 'angular2-modal';
+} from 'single-angular-modal';
 import { Modal } from '../modal';
 import { DialogFormModal as component, FormDropIn as content } from '../dialog-form-modal';
 import { DialogPreset, DialogPresetBuilder } from './dialog-preset';

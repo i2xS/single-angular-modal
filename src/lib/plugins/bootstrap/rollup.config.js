@@ -1,7 +1,7 @@
 
 export default {
   entry: 'dist_package/esm/plugins/bootstrap/index.js',
-  dest: '.tmp/angular2-modal.bootstrap.umd.js',
+  dest: '.tmp/single-angular-modal.bootstrap.umd.js',
   format: 'umd',
   moduleName: 'angular2Modal.plugins.bootstrap',
   globals: {
@@ -10,7 +10,7 @@ export default {
     '@angular/compiler': 'ng.compiler',
     '@angular/platform-browser': 'ng.platformBrowser',
     '@angular/platform-browser-dynamic': 'ng.platformBrowserDynamic',
-    'angular2-modal': 'angular2Modal',
+    'single-angular-modal': 'angular2Modal',
     'rxjs/Subject': 'Rx',
     'rxjs/observable/PromiseObservable': 'Rx',
     'rxjs/operator/toPromise': 'Rx.Observable.prototype',

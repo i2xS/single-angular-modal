@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
-import { DialogRef, ModalComponent } from 'angular2-modal';
+import { DialogRef, ModalComponent } from 'single-angular-modal';
 
 import { MessageModalPreset } from'./presets/message-modal-preset';
 

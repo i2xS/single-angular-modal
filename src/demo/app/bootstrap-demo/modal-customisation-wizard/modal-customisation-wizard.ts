@@ -1,9 +1,9 @@
 import {Component} from '@angular/core';
-import {Modal} from 'angular2-modal';
+import {Modal} from 'single-angular-modal';
 import {
     TwoButtonPreset,
     TwoButtonPresetBuilder
-} from 'angular2-modal/plugins/bootstrap/index';
+} from 'single-angular-modal/plugins/bootstrap/index';
 
 
 @Component({

@@ -4,7 +4,7 @@ import {
   ModalOpenContext,
   FluentAssignMethod,
   arrayUnion
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 const DEFAULT_SETTERS = [
   'promptDefault'

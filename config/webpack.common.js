@@ -74,7 +74,7 @@ module.exports = function (options) {
       extensions: ['.ts', '.tsx', '.js', '.json', '.css', '.html'],
       modules: [helpers.root('src'), 'node_modules'],
       alias: {
-        'angular2-modal': helpers.root('src/lib')
+        'single-angular-modal': helpers.root('src/lib')
       }
     },
 

@@ -6,7 +6,7 @@ import {
   Overlay,
   DROP_IN_TYPE,
   Modal as Modal_
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 import { JSNativePresetBuilder } from './presets/js-native-preset';
 

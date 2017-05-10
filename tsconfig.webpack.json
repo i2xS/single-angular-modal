@@ -12,8 +12,8 @@
     "strictNullChecks": false,
     "baseUrl": "./src",
     "paths": {
-      "angular2-modal": [ "./lib" ],
-      "angular2-modal/*": [ "./lib/*" ]
+      "single-angular-modal": [ "./lib" ],
+      "single-angular-modal/*": [ "./lib/*" ]
     },
     "lib": [
       "dom",

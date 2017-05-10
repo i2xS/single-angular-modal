@@ -1,26 +1,27 @@
 {
-  "name": "angular2-modal",
-  "description": "Angular2 Modal (dialog) window.",
+  "name": "single-angular-modal",
+  "description": "Angular Modals",
   "version": "3.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shlomiassaf/angular2-modal.git"
+    "url": "https://github.com/singlemusic/single-angular-modal.git"
   },
   "keywords": [
     "angular",
     "angular2",
+    "angular4",
     "bootstrap",
     "vex",
     "modal"
   ],
   "author": "Shlomi Assaf",
   "license": "MIT",
-  "main": "bundles/angular2-modal.umd.js",
+  "main": "bundles/single-angular-modal.umd.js",
   "module": "esm/index.js",
   "typings": "esm/index.d.ts",
-  "homepage": "https://github.com/shlomiassaf/angular2-modal",
+  "homepage": "https://github.com/singlemusic/single-angular-modal",
   "bugs": {
-    "url": "https://github.com/shlomiassaf/angular2-modal/issues"
+    "url": "https://github.com/singlemusic/single-angular-modal/issues"
   },
   "scripts": {
     "rimraf": "rimraf",
@@ -37,9 +38,9 @@
     "build-site": "npm run build-site:aot:prod",
     "build-site:prod": "npm run clean:dist && npm run clean:aot && webpack --config config/webpack.prod.js  --progress --profile --bail",
     "build-site:aot:prod": "npm run clean:dist && npm run clean:aot && webpack --config config/webpack.prod.js  --progress --profile --bail",
-    "build-site:aot:prod:npmlike": "rm -rf src/angular2-modal && npm run clean:dist && npm run clean:aot && npm run build && mv dist_package src/angular2-modal && webpack --config config/webpack.prod.js  --progress --profile &&  rm -rf src/angular2-modal",
+    "build-site:aot:prod:npmlike": "rm -rf src/single-angular-modal && npm run clean:dist && npm run clean:aot && npm run build && mv dist_package src/single-angular-modal && webpack --config config/webpack.prod.js  --progress --profile &&  rm -rf src/single-angular-modal",
     "github-deploy:dev": "npm run clean:dist && webpack --config config/webpack.github-deploy.js --progress --profile",
-    "github-deploy:aot:prod:npmlike": "rm -rf src/angular2-modal && npm run clean:dist && npm run clean:aot && npm run build && mv dist_package src/angular2-modal && webpack --config config/webpack.github-deploy.js  --progress --profile &&  rm -rf src/angular2-modal",
+    "github-deploy:aot:prod:npmlike": "rm -rf src/single-angular-modal && npm run clean:dist && npm run clean:aot && npm run build && mv dist_package src/single-angular-modal && webpack --config config/webpack.github-deploy.js  --progress --profile &&  rm -rf src/single-angular-modal",
     "github-deploy:aot:prod": "npm run clean:dist && npm run clean:aot && webpack --config config/webpack.github-deploy.js  --progress --profile",
     "github-deploy": "npm run github-deploy:aot:prod",
     "release": "npm run gulp -- release",
@@ -60,9 +61,9 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
+    "@angular/animations": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/platform-server": "^4.0.0",
-    "@angular/animations": "^4.0.0",
     "@angularclass/hmr-loader": "^3.0.2",
     "@types/hammerjs": "^2.0.28",
     "@types/node": "^7.0.0",

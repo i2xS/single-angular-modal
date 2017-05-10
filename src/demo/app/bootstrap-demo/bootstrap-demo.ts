@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { providers } from 'angular2-modal/plugins/bootstrap';
+import { providers } from 'single-angular-modal/plugins/bootstrap';
 
 
 @Component({

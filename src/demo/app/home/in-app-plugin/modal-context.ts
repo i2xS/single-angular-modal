@@ -4,7 +4,7 @@ import {
   ModalOpenContextBuilder,
   ModalOpenContext,
   FluentAssignMethod
-} from 'angular2-modal';
+} from 'single-angular-modal';
 
 
 export class InAppModalContext extends ModalOpenContext {

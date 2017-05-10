@@ -4,7 +4,7 @@ import {
   privateKey,
   extend,
   arrayUnion
-} from 'angular2-modal';
+} from 'single-angular-modal';
 import { VEXModalContext, VEXModalContextBuilder } from '../modal-context';
 import { Modal } from '../modal';
 import {

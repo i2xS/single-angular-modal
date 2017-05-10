@@ -33,7 +33,7 @@ node_modules
 /dist_package
 /compiled
 /dll
-src/angular2-modal
+src/single-angular-modal
 .idea
 *.ngfactory.ts
 
